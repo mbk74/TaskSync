@@ -5,6 +5,8 @@
 //  Created by Max Kolesnik on 02.05.2021.
 //
 
+// https://www.slideshare.net/ssusera5552c/nsoperation-objectivec
+
 #import <Foundation/Foundation.h>
 #import "Provider.h"
 
