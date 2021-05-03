@@ -11,7 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface SimpleTask : NSObject
 
-- (void)execute:(NSRange) rangeDuration;
+- (instancetype)initWith:(NSRange) rangeDuration name:(NSString*) name;
+- (NSBlockOperation*)createOperation;
 
 @end
 
