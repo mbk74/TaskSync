@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		16B216B4263F38D100ED4CB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B216B3263F38D100ED4CB6 /* main.m */; };
 		16B216BC263F38FA00ED4CB6 /* Provider.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B216BB263F38FA00ED4CB6 /* Provider.m */; };
+		16B216BF2640713100ED4CB6 /* SimpleTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 16B216BE2640713100ED4CB6 /* SimpleTask.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		16B216B3263F38D100ED4CB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16B216BA263F38FA00ED4CB6 /* Provider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Provider.h; sourceTree = "<group>"; };
 		16B216BB263F38FA00ED4CB6 /* Provider.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Provider.m; sourceTree = "<group>"; };
+		16B216BD2640713100ED4CB6 /* SimpleTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleTask.h; sourceTree = "<group>"; };
+		16B216BE2640713100ED4CB6 /* SimpleTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleTask.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				16B216BA263F38FA00ED4CB6 /* Provider.h */,
 				16B216BB263F38FA00ED4CB6 /* Provider.m */,
 				16B216B3263F38D100ED4CB6 /* main.m */,
+				16B216BD2640713100ED4CB6 /* SimpleTask.h */,
+				16B216BE2640713100ED4CB6 /* SimpleTask.m */,
 			);
 			path = TaskSync;
 			sourceTree = "<group>";
@@ -124,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16B216BC263F38FA00ED4CB6 /* Provider.m in Sources */,
+				16B216BF2640713100ED4CB6 /* SimpleTask.m in Sources */,
 				16B216B4263F38D100ED4CB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
